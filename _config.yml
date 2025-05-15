@@ -14,9 +14,9 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Welcome to Dhwanit-Cyber-Blogs # the main title
+title: Welcome to My-Cyber-Blogs # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Cybersecurity Enthusiast | CTF Explorer | Tech Blogger # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

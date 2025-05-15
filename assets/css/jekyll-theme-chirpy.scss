@@ -1,0 +1,49 @@
+---
+---
+
+/* prettier-ignore */
+@use "main{% if jekyll.environment == 'production' %}.bundle{%endif %}";
+/* append your custom style below */
+
+
+
+.post-preview {
+  border: 0.1px solid transparent;
+  /* Set initial border to avoid jump */
+  transition:
+    border 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  /* Add transform transition */
+}
+
+.post-preview:hover {
+  border: 0.1px solid;
+  transform: scale(0.99);
+}
+
+#sidebar ul li.nav-item.active .nav-link{
+  color:#14fff7;
+}
+
+@media (min-width: 576px) {
+  #sidebar #avatar {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+html[data-mode='light']{ 
+  #sidebar ul li.nav-item.active .nav-link {
+    color: #00bfa6;
+  }
+  .post-preview {
+    background-color: #f6f8fa; 
+    color: #adb5bd;
+  }
+}
+
+
