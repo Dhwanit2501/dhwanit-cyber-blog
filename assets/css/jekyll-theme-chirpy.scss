@@ -48,6 +48,11 @@ html[data-mode='light']{
     color: #585858 !important;
     border-bottom: 1px solid #585858;
   }
+  @media (max-width: calc(849px)){
+    #topbar {
+        background: transparent;
+        backdrop-filter: blur(5px); }
+  }
   main {
     background: transparent;
     backdrop-filter: none;
@@ -142,6 +147,8 @@ main{
   #topbar{
     background: rgba(30, 30, 30, 0.4);
     backdrop-filter: blur(5px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .content>div[class^=language-]{
     border-radius: 10px;
@@ -149,4 +156,9 @@ main{
   .px-1{
     margin:10px
   }
+  .px-md-4 {
+    margin-top:10px 
+  }
+  
 }
+
