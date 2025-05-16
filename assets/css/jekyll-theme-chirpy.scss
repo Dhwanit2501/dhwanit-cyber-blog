@@ -44,6 +44,15 @@ html[data-mode='light']{
     background-color: #f6f8fa; 
     color: #adb5bd;
   }
+  .content a{
+    color: #585858 !important;
+    border-bottom: 1px solid #585858;
+  }
+  main {
+    background: transparent;
+    backdrop-filter: none;
+    border-radius: none; 
+  }
   body #sidebar {
     background: rgba(255, 255, 255, 0.4) !important; 
   }
@@ -105,4 +114,20 @@ body::before {
   z-index: -1;
   /* Send it behind content */
   filter: brightness(1.3) contrast(1.3) saturate(1.3);
+}
+
+#archives ul li{
+  border-radius: 5px;
+}
+
+#archives a {
+  transition: 0.3s ease-in-out;
+}
+
+
+
+main{
+  background: rgba(30, 30, 30, 0.185);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
 }
