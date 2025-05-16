@@ -131,3 +131,22 @@ main{
   backdrop-filter: blur(5px);
   border-radius: 15px;
 }
+
+#dwd{
+  margin-top: -4rem;
+}
+@media (max-width: calc(849px)) {
+  #dwd{
+    margin-top: -2rem !important;
+  }
+  #topbar{
+    background: rgba(30, 30, 30, 0.4);
+    backdrop-filter: blur(5px);
+  }
+  .content>div[class^=language-]{
+    border-radius: 10px;
+  }
+  .px-1{
+    margin:10px
+  }
+}

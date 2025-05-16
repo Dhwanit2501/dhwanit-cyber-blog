@@ -6,7 +6,7 @@ icon: fas fa-file-pdf
 order: 6
 ---
 
-<div style="text-align: right; margin-top: -4rem; margin-bottom: 1rem;">
+<div id=dwd style="text-align: right; margin-bottom: 1rem;">
   <a href="{{ '/assets/files/Dhwanit Pandya_Resume_Blog.pdf' | relative_url }}" download="Dhwanit Pandya_Resume_Blog.pdf" 
      style="padding: 6px 12px; color: white; border-radius: 4px; text-decoration: none;font-size: 14px; border: 1px solid;"
      >
