@@ -5,7 +5,9 @@
 @use "main{% if jekyll.environment == 'production' %}.bundle{%endif %}";
 /* append your custom style below */
 
-
+iframe {
+  border: 1px solid white;
+}
 
 .post-preview {
   border: 0.1px solid transparent;
@@ -48,6 +50,8 @@ html[data-mode='light']{
     color: #585858 !important;
     border-bottom: 1px solid #585858;
   }
+  iframe {
+    border: none; }
   @media (max-width: calc(849px)){
     #topbar {
         background: transparent;

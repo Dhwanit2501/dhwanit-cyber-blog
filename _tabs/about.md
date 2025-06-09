@@ -68,6 +68,24 @@ Python, Bash, Wireshark, Nmap, Docker, GitHub Actions, FastAPI, React, AWS (EC2,
 If you're someone who loves tech, security, or just good conversations — let's talk! You can find links to my socials and resume on the sidebar, or head over to the [Resume](/resume) tab for a downloadable version.
 
 Looking forward to learning and building together. -->
+
+  <iframe
+    src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4113037"
+    style="
+      width: 327.5px;
+      height: 84.5px;
+      border-radius: 12px;
+      overflow: hidden;
+      display: block;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      background-color: transparent;
+    "
+    scrolling="no"
+    loading="lazy"
+  ></iframe>
+
+
+
 ## <i class="fas fa-user-astronaut"></i> Who I Am
 
 I'm a passionate **Cybersecurity Enthusiast**, currently pursuing my Master's in Computer Science (GPA: 3.95/4), passionate about combining technical depth with creative problem-solving.
