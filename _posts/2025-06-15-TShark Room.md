@@ -18,6 +18,7 @@ Alright, let's get started!
 
 **TASK 1: Introduction ---> Self Explainatory**
 ---
+
 **TASK 2: Command-Line Packet Analysis Hints**
 ---
 This task lists the common CLI tools that would be handy to know for packet analysis.
