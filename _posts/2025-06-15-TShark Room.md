@@ -16,7 +16,7 @@ Also, what I like the most about these command-line tools is that they offer you
 
 Alright, let's get started!
 
-**TASK 1: Introduction ---> Self Explainatory**
+**TASK 1: Introduction ---> Self-Explanatory**
 ---
 
 
