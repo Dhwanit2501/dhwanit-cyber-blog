@@ -37,10 +37,31 @@ iframe {
 img {
   width: 100%;
 }
+#search-results>article{
+  background: rgba(30, 30, 30, 0.185);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 10px !important;
+  border: 0.1px solid transparent;
+    /* Set initial border to avoid jump */
+    transition:
+      border 0.3s ease-in-out,
+      transform 0.3s ease-in-out;
+    /* Add transform transition */
+}
+
+#search-results>article:hover{
+  border: 0.1px solid;
+  transform: scale(0.99);
+}
 
 html[data-mode='light']{ 
   #sidebar ul li.nav-item.active .nav-link {
     color: #00bfa6;
+  }
+  #search-results>article{
+    background-color: #f6f8fa;
+    color: #adb5bd;
   }
   .post-preview {
     background-color: #f6f8fa; 

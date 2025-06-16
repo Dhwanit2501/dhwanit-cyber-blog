@@ -3,12 +3,12 @@ layout: post
 title: "My First Cyber Blog Post"
 date: 2025-05-14
 categories: [blog]
-tags: [demo, chirpy, jekyll]
+tags: []
 ---
 
 Welcome to my cybersecurity blog! 🎉
 
-This is a **dummy post** created to test the setup of my GitHub Pages blog using the Chirpy Jekyll theme.
+This is a **dummy post** created to test the setup of my GitHub Pages blog.
 
 ## Sample Code Block
 

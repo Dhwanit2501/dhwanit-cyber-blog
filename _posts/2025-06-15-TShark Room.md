@@ -2,7 +2,7 @@
 layout: post
 title: "TShark:The Basics Room"
 date: 2025-06-15
-categories: [blog]
+categories: [THM]
 tags: [THM,TShark,packet analysis,automation]
 ---
 
@@ -34,7 +34,7 @@ capinfos demo.pcapng
 
 which provides us with a summary of the capture file and our answer is amongst the one of the listed key-value pairs.
 
-![Task-2](../assets/img/THM_SS/Tshark-T2.png)
+![Task-2](/assets/img/THM_SS/Tshark-T2.png)
 
 **TASK 3: TShark Fundamentals I**
 ---
@@ -68,7 +68,7 @@ We can simply answer this using
 tshark -D  
 ```
 
-![Task-3](../assets/img/THM_SS/Tshark-T3.png)
+![Task-3](/assets/img/THM_SS/Tshark-T3.png)
 
 
 **TASK 4: TShark Fundamentals I - Main Parameters**
@@ -120,7 +120,7 @@ where you have your answer in `Win=='   '`
 
 I have attached a snapshot for your reference.
 
-![Task-4](../assets/img/THM_SS/Tshark-T4.png)
+![Task-4](/assets/img/THM_SS/Tshark-T4.png)
 
 **TASK 5: TShark Fundamentals II - Capture Conditions**
 ---
@@ -189,7 +189,7 @@ tshark -f "dst host 10.10.10.10"
 
 > <span style="color: #ef233c;">Note:</span> Before you do this make sure you terminate the current packet capture and then use the above command. Also, you need to run the curl command again to sniff traffic.
 
-![Task-7](../assets/img/THM_SS/Tshark-T7.png)
+![Task-7](/assets/img/THM_SS/Tshark-T7.png)
 
 Note : Here the last one is ARP Broadcast, so we won't count it as one of the packets sent to mentioned destination IP.  
 
