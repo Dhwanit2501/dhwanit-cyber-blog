@@ -2,7 +2,7 @@
 layout: post
 title: "TShark:The Basics Room"
 date: 2025-06-15
-categories: [THM]
+categories: [TryHackMe]
 tags: [THM,TShark,packet analysis,automation]
 ---
 
