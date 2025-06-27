@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows Logging Room"
+title: "Windows Logging For SOC Room"
 date: 2025-06-25
 categories: [TryHackMe]
 tags: [THM,Windows,Log analysis,SOC]

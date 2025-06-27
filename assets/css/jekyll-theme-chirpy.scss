@@ -8,7 +8,14 @@
 iframe {
   border: 1px solid white;
 }
-
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
 .post-preview {
   border: 0.1px solid transparent;
   /* Set initial border to avoid jump */
