@@ -9,7 +9,7 @@ tags: [THM,CVE,deserialisation]
 Welcome to the Roundcube: CVE-2025-49113 Room on Try Hack Me! 
 
 
->This walkthrough for the Roundcube: CVE-2025-49113 Room on TryHackMe is for educational purposes only. The author assume no responsibility for any misuse or damage resulting from the use of this. Unauthorized use on systems you do not own or have explicit permission to test is illegal and strictly prohibited.
+>This walkthrough for the Roundcube: CVE-2025-49113 Room on TryHackMe is for educational purposes only. The author assumes no responsibility for any misuse or damage resulting from the use of this walkthrough. Unauthorized use of systems you do not own or have explicit permission to test is illegal and strictly prohibited.
 {: .prompt-danger }
 
 This room focuses on the vulnerability CVE-2025-49113, which was recently discovered and is listed on NVD. It has a severity score of `9.9` and is categorized as `Critical`. 
