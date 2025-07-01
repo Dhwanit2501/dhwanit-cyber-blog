@@ -26,9 +26,9 @@ This vector simply states that:
 
 `User Interaction: None` - This is because the threat actor does not need any user interaction for the exploit to work. Obtaining user credentials is another thing that may require user interaction if done via phishing, where the user might need to click on the link. Having user interaction as `None` is a serious concern, as if it were the other way round, we might reduce the success of the exploit by user awareness.
 
-`Scope: Changed` - The scope is changed because exploiting the vulnerability lets a threat actor move from normal user permissions in the Roundcube web application to arbitrary code execution on the underlying server. That crosses a security boundary—from user-level control to system-level control.
+`Scope: Changed` - The scope is changed because exploiting the vulnerability lets a threat actor move from normal user permissions in the Roundcube web application to arbitrary code execution on the underlying server. That crosses a security boundary from user-level control to system-level control.
 
-`CIA: H` - This is obvious as RCE vulnerabilities are always a threat to the Confidentiality, Integrity, and Availability of any system.
+`CIA: High` - This is obvious as RCE vulnerabilities are always a threat to the Confidentiality, Integrity, and Availability of any system.
 
 This room revolves around the concept of serialisation and deserialisation, so it is better to get these concepts cleared before starting the room.
 
