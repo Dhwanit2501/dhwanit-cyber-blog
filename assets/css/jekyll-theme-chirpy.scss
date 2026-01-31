@@ -29,6 +29,10 @@ body::-webkit-scrollbar {
   border: 0.1px solid;
   transform: scale(0.99);
 }
+.content {
+  line-height: 1.75;
+  font-size: 18px;
+}
 
 #sidebar ul li.nav-item.active .nav-link{
   color:#14fff7;
