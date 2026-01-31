@@ -120,7 +120,7 @@ html[data-mode='light']{
 
 
 #sidebar {
-  background: rgba(30, 30, 30, 0.4) !important; // dark gray with 70% opacity
+  background: rgba(30, 30, 30, 0.61); // dark gray with 70% opacity
   backdrop-filter: blur(5px);
 }
 
@@ -164,7 +164,7 @@ body::before {
 
 
 main{
-  background: rgba(30, 30, 30, 0.185);
+  background: rgba(30, 30, 30, 0.61);
   backdrop-filter: blur(5px);
   border-radius: 15px;
 }
